@@ -1,0 +1,364 @@
+/* it is an external style sheet of style and cahnge format of the index.html web page*/
+/*tag selector*/
+header{
+  /* in the header of the web page the colour of the background is steel blue and the 
+  colour of the text is white and it is centrally aligned*/
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+/*class selector*/
+.Links{
+  /*to change the background colour of the links to the black*and to have a padding of 2px on all the sides*/
+    background-color: black;
+    padding: 2px;
+}
+/*descendant combinator*/
+header a{
+  /*to change the colour of the links to yellow  and remove the underline*/
+    color: yellow;
+    text-decoration: none;
+}
+/*Direct descendant combinator*/
+nav>h2{
+  /*to display heading level two in nav as inline block element*/
+    display:inline-block;
+}
+/*Direct descendant combinator*/
+nav>ul{
+  /*to display unordered list in nav as inline block element*/
+    padding:0;
+    display:inline-block;
+}
+/*tag selector*/
+li{
+  /*to display links inside li as inline block element*/
+    display: inline-block;
+}
+/*Id selector*/
+#pg-main{
+  /*to style the main section of the page having 80 viewport with margin on top and bottom to be zero 
+  and left and right to be auto*/
+    margin:0 auto;
+    width:80vw;
+    /*to change the font size*/
+    font-size: 14px;
+}
+button{
+  border: 2px solid black;
+  border-radius: 2em;
+  position:relative;
+  top:10px;
+  left: 0px;
+  margin-bottom: 10px;
+}
+/*class selector*/
+.sec1headings{
+  /*to align heading in center*/
+    text-align: center;
+}
+/*tag selector*/
+#featured-img{
+  /*image is float right having width of 60%*/
+    float:right;
+    width: 60%;
+    margin:0 0 2% 0;/*setting margin only on bottom of the image*/
+}
+/*id selector*/
+#f-news1{
+  /*article floating left having 49% */
+  float: left;
+  width: 49%;
+  overflow:auto;
+}
+/*id selector*/
+#f-news2{
+  /*article floating right having 49% */
+  float: right;
+  width: 49%;
+}
+/*id selector*/
+#hali-zone{
+  /*clearing the overflow element on all sides*/
+  clear:both;
+}
+#logo-of-dal{
+  width:200px;
+  height:250px;
+  float: right;
+  margin:20px;
+}
+/*id selector*/
+#movetop{
+  font-size: 20px;
+}
+/*descendant selector*/
+#top
+{
+  /*styling the anchor link to move back to the top of the page*/
+  color:#DE1B2E;
+  padding:3px ;
+  text-decoration: none;
+  border-radius: 2em;
+  border: 2px solid #DE1B2E;
+  position:fixed;
+  left:95vw;
+  top:90vh;
+  
+}
+/*id selector*/
+#pg-footer{
+  /*to set background colour as black and colour of text as white*/
+  background-color: black;
+  color:white;
+  /*to set the line height as 70 px and padding on left as 15px*/
+  line-height: 70px;
+  padding-left: 15px;
+}
+/*on changing the width of the viewport to 1200px the styling of the web page changes*/
+@media screen and (max-width: 1200px)
+{
+  /*tag selector*/
+  body{
+    /*changing the background colour of the entire page*/
+    background-color:rgb(170, 221, 221);
+  }
+  /*descendant combinators*/
+  #pg-main section article p a{
+    /*changing the colour of the anchor attributes present in paragraphs of articles in section of main page*/
+    color:rgb(2, 85, 240);
+  }
+  #pg-header{
+    /*displaying pg header as flex having a background colour of teal*/
+    display:flex;
+    background-color: teal;
+  }
+  /*direct descendant combinator*/
+  #pg-header>section{
+    /*setting the width of the section container to 3 of page header*/
+    flex:3;
+  }
+  #pg-header>nav{
+     /*setting the width of the nav container to 1 of page header with background colour of darkgoldenrod*/
+    flex:1;
+    background-color: darkgoldenrod;
+  }
+  /*direct descendant selector*/
+  nav>h2{
+    /*to display heading level two in nav as  block element*/
+      display:block;
+  }
+  /*tag selector*/
+  li{
+    /*displaying li block level elment*/
+    display:block;
+  }
+  /*id selector*/
+  #featured-news
+  {
+    /*displaying feataured news section as grid and setting columns to have same width of 1 fraction*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /*setting gap between two column as 15px*/
+    gap: 15px;
+  }
+  /*class selector*/
+  .sec1headings{
+    /*heading of section 1 would occupy column from 1 to -1 */
+    grid-column: 1/-1;
+  }
+  /*id selector*/
+  #f-news1{
+    /*setting the width to 100% and displaying as grid*/
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+  }
+  #f-news1>p{
+    /*clearing floating elements from both sides*/
+    clear: both;
+  }
+  /*id selector*/
+  #featured-img{
+  /*setting floating elements to none and margin of top/bottom to zero and left/right to auto*/
+  float: none;
+  margin: 0 auto;
+  }
+  /*id selector*/
+  #f-news2{
+    width: 100%;
+  }
+  /*id selector*/
+  #hz-news1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+  }
+  /*id selector*/
+  #logo-of-dal{
+    margin:20px;
+  }
+  #top
+{
+  /*styling the anchor link to move back to the top of the page*/
+  color:#DE1B2E;
+  padding:3px ;
+  text-decoration: none;
+  border-radius: 2em;
+  border: 2px solid #DE1B2E;
+  position:fixed;
+  left:95vw;
+  top:90vh;
+  
+}
+  /*id selector*/
+  #pg-footer{
+    line-height: 60px;
+  }
+}
+/*on changing the width of the viewport to 840px the styling of the web page changes*/
+@media screen and (max-width: 840px)
+{
+  /*tag selector*/
+  body{
+  /*setting background colour to mistyrose aligning text as justify*/
+    background-color:mistyrose;
+    text-align: justify;
+  }
+  /*id selector*/
+  #pg-header{
+  /*displaying page header as inline block*/
+    display:inline-block;
+    width: 100%;
+    background-color:rgb(252, 4, 136);
+  }
+  /*id selector*/
+  #pg-header section{
+  /*displaying section under page header as flex and setting drirection of flex to column*/
+    display: flex;
+    flex-direction: column;
+  }
+  /*direct descendant combinator*/
+  #pg-header>nav{
+  /*setting the background colour*/
+    background-color:mediumaquamarine;
+  }
+  /*descendant combinator*/
+  #pg-header section h1{
+  /*removing padding and margin of th heading level one in header*/
+    padding: 0%;
+    margin: 0%;
+  }
+  /*descendant combinator*/
+  #pg-header section p{
+  /*removing padding and top margin of the paragraph in header*/
+    padding:0%;
+    margin-top: 0%;
+  }
+  /*descendant combinator*/
+  #pg-header li{
+  /*displaying page li in header as inline block*/
+    display: inline-block;
+  }
+  /*descendant combinator*/
+  #pg-header h2{
+  /*displaying page h2 in header as inline block*/
+    display: inline-block;
+  }
+  #pg-header nav>ul{
+  /*displaying page ul in nav in header as inline block*/
+    display: inline-block;
+  }
+  /*id selector*/
+  #pg-main{
+    /*to style the main section of the page having 80 viewport with margin on top and bottom to be zero 
+    and left and right to be auto*/
+      width:80vw;
+  }
+  /*id selector*/
+  #featured-news{
+    /*displaying as grid*/
+    display:grid;
+    /*creating 1 column of 1 fraction*/
+    grid-template-columns: repeat(1,1fr);
+    /*setting gap to 0*/
+    gap:0;
+  }
+  /*class selector*/
+  .sec1headings{
+    /*heading of section 1 would occupy column from 1 to -1 */
+    grid-column: 1/-1;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  /*id selector*/
+  #f-news1{
+    width: 100%;
+    /*displaying as grid*/
+    display: grid;
+    grid-template-rows: auto;
+  }
+  /*id selector*/
+  #featured-img{
+    /*setting the row of featured iamge from 4 to 5*/
+    grid-row: 4/5;
+    margin:10px auto;
+    /*setting width to 80%*/
+    width:300px;
+  }
+  /*id selector*/
+  #hz-news1{
+    /*displaying as grid*/
+    display: grid;
+    /*creating 1 column of 1 fraction*/
+    grid-template-columns: 1fr;
+  }
+  #top
+{
+  /*styling the anchor link to move back to the top of the page*/
+  color:#DE1B2E;
+  padding:3px ;
+  text-decoration: none;
+  border-radius: 2em;
+  border: 2px solid #DE1B2E;
+  position:fixed;
+  left:92vw;
+  top:90vh;
+  
+}
+  /*id selector*/
+  #pg-footer{
+    /*setting the height of the line of footer to 40px*/
+    line-height: 40px;
+  }
+}
+
+
+
+/*dark mode styling*/
+.dark-mode{
+  /*setting background colour as black and text colour as white*/
+  background-color: black;
+  color: white;
+}
+/*descendant combinator*/
+body.dark-mode #pg-header{
+  /*setting background colour as black*/
+  background-color: black;
+}
+/*direct descendant combinator*/
+body.dark-mode #pg-header>nav{
+  /*setting background colour as black*/
+  background-color: black;
+}
+/*multiple selector*/
+body.dark-mode #pg-main h2,body.dark-mode #pg-main h3,body.dark-mode #pg-main h4{
+  /*setting text colour of the headings */
+  color:rgb(28, 229, 236);
+}
+/*descendant combinator*/
+body.dark-mode #pg-main a{
+  /*setting text colour as limegreen for all the links in main page*/
+  color:limegreen;
+}

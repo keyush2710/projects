@@ -1,0 +1,44 @@
+1st Run:
+Enter the file name to read from
+LettersProbability.txt
+
+Building the Huffman tree .....
+Huffman coding completed.
+
+Enter a line of text (uppercase letters only): 
+HI GOOD MORNING WORLD
+
+01011100 1111001101110111111 0011111011000101011001010111100 111101110110001011111111
+
+HI GOOD MORNING WORLD
+
+
+2nd Run:
+
+Enter the file name to read from
+lettersProbability.txt
+
+Building the Huffman tree .....
+Huffman coding completed.
+
+Enter a line of text (uppercase letters only): 
+THIS IS COOL
+
+000010111001001 11001001 010001101110110111
+
+THIS IS COOL
+
+3rd Run:
+
+Enter the file name to read from
+lettersProbability.txt
+
+Building the Huffman tree .....
+Huffman coding completed.
+
+Enter a line of text (uppercase letters only): 
+TECHNOLOGY IS FUTURE
+
+0000110100001011010110110111110111110000100 11001001 0011001001000010011000011
+
+TECHNOLOGY IS FUTURE

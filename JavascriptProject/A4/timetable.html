@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- The page head is configuring the content to be responsive. -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Jedi Uni Timetable</title>
+
+		<!-- Link to the CSS reset stylesheet: normalize.css
+			Normalize.css is developed by Nicolas Gallagher.
+			Available at URL: https://necolas.github.io/normalize.css/
+			Date accessed: 15 March 2021
+		-->
+		<link rel="stylesheet" href="css/normalize.css">
+
+		<!-- Link to the main stylesheet for the page. -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<!-- Web page header: with a consistent header across all pages on the website. -->
+		<header class="pg-header">
+			<h1>Jedi University: Timetable</h1>
+			<nav class="pg-main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="timetable.html">Timetable</a></li>
+					<li><a href="mailto:email@testwebsite.ca">Email us</a></li>
+					<li><a href="https://www.google.ca" target="_blank" rel="noopener">Google search</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main content for the web page. -->
+		<main class="pg-main-content">
+			<section class="s-info">
+				<h2>Timetable</h2>
+				<div id="timetable-data-container"></div>
+			</section>
+		</main>
+
+		<!-- Web page footer: with a consistent footer across all pages on the website.  -->
+		<footer class="pg-footer">
+			&copy; Jedi University. Do or do not. There is no try.
+		</footer>
+
+		<!-- Linking to the data script file for the web page. This brings the JSON data into the execution context. -->
+		<script src="js/data.js"></script>
+
+		<!-- Linking to the main scripts file for the web page. -->
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

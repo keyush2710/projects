@@ -1,0 +1,167 @@
+/*
+ * CSCI 1170: Introduction to Web Design and Development
+ * Winter 2021 (Online edition)
+ * Author: Dr. Raghav V. Sampangi (raghav@cs.dal.ca)
+ *
+ * This file contains the main CSS file for all pages on this website.
+ * 
+ */
+
+/* General web page styles */
+body {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: small;
+}
+
+/* Main container styles */
+.pg-header {
+	height: 10vh;
+	background-color: steelblue;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding:1em;
+}
+.pg-main-content {
+	min-height: 60vh;
+	padding: 1em;
+	
+}
+.pg-footer {
+	height: 10vh;
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
+/*child combinator*/
+.pg-footer>p{
+    margin-top: 0;
+	padding-left: 0;
+}
+
+/* Header content styles */
+.pg-header > h1 {
+	margin: 0;
+	flex: 1;
+}
+
+/* Heading styles: applies to both H2 and H3 */
+h2,h3 {
+	color: steelblue;
+	font-weight: lighter;
+}
+
+/* Main navigation styles */
+.pg-main-nav {
+	width: 340px;
+}
+.pg-main-nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+
+}
+.pg-main-nav a:link,
+.pg-main-nav a:visited {
+	color: white;
+	text-decoration: none;
+	font-weight:bolder;
+}
+
+.pg-main-nav a:hover,.pg-main-nav a:active {
+	color: gold;
+}
+
+/* Image styling */
+.img-link-container {
+	display: flex;
+	justify-content: space-between;
+}
+.sinfo-img {
+	width: 24vw;
+}
+/*Timetable styling*/
+.timetable{
+	display: grid;/*displaying timetable as grid*/
+	grid-template-columns: repeat(6,1fr);
+	/*changing the line height of the timetable*/
+	line-height: 30px;
+	font-size: 12px;
+	/*aligning the text in the center*/
+	text-align: center;
+	/*adding the border at the bottom after every section of the time table*/
+	border-bottom:2px solid black;
+}
+/*class selector*/
+.code-name{
+	/*displaying code-name in entire first row*/
+	grid-column: 1/-1;
+	/*setting the text colour to steelblue*/
+	color: steelblue;
+	font-size:14px;
+}
+/*mutliple selector*/
+.instructor,.schedule,.current{
+	background-color: rgb(143, 187, 202);
+	
+}
+/*mutliple selector*/
+.location,.max,.availability{
+	background-color: lightgoldenrodyellow;
+}
+/*mutliple selector*/
+.instructor>span,.max>span,.current>span,.availability>span{
+	font-weight: bolder;
+}
+/*change in styling of the web page*/
+@media screen and (max-width: 840px){
+	/*tag selector*/
+	main{
+		font-size: 16px;
+	}
+	/*class selector*/
+	.pg-header{
+		flex-direction: column;
+		height:13vh;
+	}
+	/*class selector*/
+	.img-link-container{
+		flex-direction: column;
+		align-items: center;
+	}
+	/*class selector*/
+	.sinfo-img {		
+		width: 90vw;
+	}
+	/*class selector*/
+	.timetable{
+    /*displaying timetable as flex and setting it's direction as column*/
+		display: flex;
+		flex-direction: column;
+		line-height: 30px;
+		font-size: 16px;
+	/*aligning the text in the center*/
+		text-align: center;
+		padding-bottom: 20px;
+	/*adding the border at the bottom after every section of the time table*/
+		border-bottom:2px solid black;
+	}
+	/*class selector*/
+	.code-name{
+		font-size: 16px;
+	}
+	/*mutliple selector*/
+	.instructor,.schedule,.current{
+		background-color: rgb(143, 187, 202);
+		padding: 0;
+		margin: 0;
+		
+	}
+	/*mutliple selector*/
+	.location,.max,.availability{
+		background-color: lightgoldenrodyellow;
+		padding: 0;
+		margin: 0;
+	}
+}

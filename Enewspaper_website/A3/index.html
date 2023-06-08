@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+    <!--the language used to make this web page is english-->
+    <!--Web page head,with information describing the web page and it's content -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halifax Citizen News</title><!--title of this web page is news-->
+    <!-- CSS Reset: Normalize.css 
+			Author: Nicolas Gallagher
+			URL: http://github.com/necolas/normalize.css
+			Date accessed: 18 Oct 2020
+		-->
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/main.css"><!--the external style sheet is used to provide styling to this web page-->
+  </head>
+  <body>
+    <!-- Web page header element, providing a top part of the page on the web site. -->
+    <header id="pg-header">    
+        <!--main heading of the web page-->
+        <section>
+        <h1>Halifax Citizen News</h1>
+        <h2>News from the people, for the people of Halifax</h2>
+        <p>902-000-0000 | <a href="mailto:email@halicitizennews.ca" >email@halicitizennews.ca</a> |<a href="#">halicitizennew.ca</a></p>
+      </section>
+        <!--using links to locate to the direction information that user want to read-->
+        <nav class="Links">
+          <h2>Links:&nbsp; &nbsp;</h2> 
+          <ul>
+              <!--here &nbsp is used to crete double space between the text-->
+                <!--links are used to navigate in the web page -->
+                <li><a  href="#featured-news" >Featured News </a>&nbsp; &nbsp;</li>
+                <li><a href="#hali-zone">Hali Zone</a>&nbsp; &nbsp;</li>
+                <li><a href="#nat-int" >National & International</a>&nbsp; &nbsp;</li>
+                <li><a href="#edu">Education</a>&nbsp; &nbsp;</li>
+                <li><a href="#health" >Health & Wellness</a>&nbsp; &nbsp;</li>
+          </ul>
+        </nav>
+    </header>
+      <!--web page main,it contains the different sections and articles that appear on the web page -->
+    <main id="pg-main">
+      <!--The button is used to change the view of the website in two diiferent modes.
+          1. light mode having light coloured background and dark color text 
+          2. dark mode having dark coloured background and light color text-->
+        <button id="btn-dark-light-mode" onclick="darkmode()">Toggle dark mode</button>
+        <!--creating a section for feature news with an image and articles in it-->
+        <section id="featured-news">
+            <h2 class="sec1headings"> Featured News</h2><!--heading of the section-->
+            <article id="f-news1"><!--frist article related to features news is describe here-->
+              <div>  
+                <h3 class="sec1headings">2021: More of 2020? Or a fresh new start?</h3>
+                <h4 class="sec1headings">01 January 2021, Luke Skywalke</h4>
+                </div>
+                <!--inserting an image from the folder named img-->
+                <img id="featured-img" src="img/2021.png" alt="year2021">   
+                <p>Oh gosh, what a year 2020 turned out to be. As we began the new year with excitement and enthusiasm last year, we did not
+                    expect how it would eventually turn out to be. In this article, Luke Skywalker takes us through some of the <a href="#">key highlights of
+                    2020 and talks about bold aspirations for 2021</a></p>
+            </article>
+      <!--second article related to features news is describe here-->
+            <article id="f-news2">
+                <h3 class="sec1headings">COVID-19: Immunization continues</h3>
+                <h4 class="sec1headings">12 January 2021, Ben Solo</h4>
+                <div>
+                  <P>This is a daily report and updates on the COVID-19 vaccine and immunization here in Nova Scotia</P>
+                  <p>New confirmed cases: 1</p>
+                  <p>Active cases: 27</p>
+                  <p>Patients in hospital: 0</p>
+                  <p>“About 140,000 doses are expected by the end of March in the first phase of a three-phase immunization plan, and another
+                    million doses are expected to be delivered between April and June.”</p>
+                  <!--here links are provided to have alook on more detailed news-->
+                  <p>For more information,visit the<a href="https://novascotia.ca/coronavirus/">  Nova Scotia Coronavirus Website</a>
+                  and <a href="https://novascotia.ca/news/search/?dept=180"> Nova Scotia COVID-19 News Releases Website.</a></p>
+                </div>
+             </article>
+      </section>
+      <!--section for presenting Hali zone news on the web page viewport -->
+      <section id="hali-zone">
+          <h2>Hali Zone</h2><!--heading of the section-->
+          <!--first article related to Hali zone news is describe here-->
+          <article id="hz-news1">
+            <!--inserting an image from the folder named img-->
+            <img id="logo-of-dal" src="img/dal-logo.jpeg" alt="dal-logo">
+            <!--created a division to use flex display properties easily-->
+            <div>
+              <h3>Dal & DFA reach tentative agreement</h3>
+              <h4>08January 2021, Grogu</h4>
+              <p>Dalhousie University and the Dalhousie Faculty Association (DFA) have successfully reached a tentative collective agreement.</p>
+              <p> The bargaining teams met with the government conciliator today (Friday, January 8) and successfully resolved the 
+                remaining outstanding items.</p>
+              <p> The parties would like to extend thanks to all bargaining team members who volunteered their time to be involved in this
+                important process.</p>
+              <p>A tentative agreement means that both parties have agreed to the terms of a collective agreement, which need to be agreed 
+                to or ratified by the DFA members and the university’s Board. The details of the tentative deal will be made available once
+                the Board and the membership of DFA have ratified the collective agreement.</p>
+              <p>DFA represents approximately 1,000 full-time faculty, instructors, librarians and counselors at Dalhousie.</p>
+            </div>
+          </article>
+          <!--second article related to Hali zone news is describe here-->
+          <article id="hz-news2">
+              <h3>Restaurants & gyms re-open in city</h3>
+              <h4>04 January 2021, Ahsoka Tano</h4>
+              <p>Now that the daily COVID-19 case numbers have finally started to reduce, we seem to have managed the second wave
+                reasonably well here. This was a good sign for restaurants and fitness centres in the city, which opened on January 4 after a 
+                brief lockdown.</p>
+                <p>Click here to read more in Ahsoka’s take on <a href="#">social life in Halifax during the pandemic.</a></p>
+          </article>
+      </section>
+      <!--section for presenting National and International news on the web page viewport-->
+      <section id="nat-int">
+          <h2>National & International</h2><!--heading of the section-->
+          <!--article related to National and International news is describe here-->
+          <article id="ni-news1">
+              <h3>PM addresses the nation: Cabinet change</h3>
+              <h4>12 January 2021, Rey Skywalker</h4>
+              <p>PM Trudeau addressed the nation today announcing changes to the cabinet.Answering a question on elections, the PM
+                explained that their preference is not trigger elections until mass vaccinations are complete.<a href="https://www.youtube.com/watch?v=Cpxgceq3fwo">Click here to watch the PM’s 
+                address on YouTube.</a></p>
+          </article>
+      </section>
+      <!--section for presenting Educational news on the web page viewport-->
+      <section id="edu">
+        <h2>Education</h2><!--heading of the section-->
+        <!--article related to Educational news is describe here-->
+        <article id="edu1">
+            <h3>Opinion: Online teaching vs. emergency remote teaching</h3>
+            <h4>12 January 2021, Grogu</h4>
+            <p>While we may all be operating under the assumption that teaching has quickly transformed into online teaching during this
+              pandemic and that this mode of teaching has not always been the most effective, it may be because of a few different
+              reasons: (a) we are still in the middle of a pandemic and our daily stresses from this experience impact how we experience
+              various things, including classes; (b) this mode of teachingrequires additional training, infrastructure and support, and (c)
+              this is still remote teaching in the middle of a pandemic and changes to courses are possible in small increments.</p>
+              <p>This can lead to frustration among students and helplessness among teachers. In this opinion piece, Grogu writes about the
+              <a href="#">differences between online teaching and emergency remote teaching during a pandemic</a>, and discusses lessons we can take
+              away from our collective experience.</p>
+        </article>
+      </section>
+      <!--section for presenting Educational news on the web page viewport-->
+      <section id="health">
+          <h2>Health & Wellness</h2><!--heading of the section-->
+          <!--article related to Health news is describe here-->
+          <article id="hw-news1">
+                <h3>Opinion: #WearAMask–it is for the others in the community</h3>
+                <h4>11 January 2021, Leia Organa</h4>
+                <p>Masks are useful, mainly because while we may not be symptomatic ourselves, we may still be carrying the coronavirus and
+                unknowingly give it to others. This is an important aspect to remember now that vaccinations are underway, because even
+                after you are vaccinated, you should continue to wear a mask until a large majority of the population has been vaccinated.
+                Follow public health guidelines, physical distance and wear a mask when you’re outside. Remember, we’re all in the same
+                storm but not on the same boat: how this pandemic impacts each of us is very different depending on our individual
+                differences.Let’s honourand respect these differences and support each other. Wear a mask.</p>
+          </article>
+      </section>
+      <div id="movetop">
+      <button onclick="topFunction()" id="top">^</button>
+    </div>
+    </main>
+      <!-- Web page footer element, providing a bottom part of the page on the web site. -->
+    <footer id="pg-footer">
+      <p>&copy; 2021,Halifax Citizen News, All right reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
