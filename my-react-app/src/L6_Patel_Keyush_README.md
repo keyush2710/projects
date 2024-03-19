@@ -109,23 +109,65 @@ If in completing your lab / assignment / project you used any interpretation of 
 
 ### File Name
 
-*Lines ## - ##*
+*App.js line 8 to 26
 
 ```
-Copy and paste your code on lines mentioned 
+ <Router>
+      <div className="App">
+        <header>
+          <h1>Flamingo Tution Classes</h1>
+          <div>
+            <ul>
+              <li id="navbar"><Link to="/"><strong>Home</strong></Link></li>
+              <li id="navbar"><Link to="/schedule"><strong>Schedule</strong></Link></li>
+            </ul>
+          </div>
+        </header>
+        <main>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/schedule" element={<Schedule />} /> 
+          </Routes>
+        </main>
+      </div>
+    </Router>
 
 ```
 
-The code above was created by adapting the code in [NAME](link) as shown below: 
+The code above was created by adapting the code in [W3CSchools](https://www.w3schools.com/react/react_router.asp) as shown below: 
 
 ```
-Copy and paste the snippet of code you are referencing
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
 ```
 
-- <!---How---> The code in [NAME](link) was implemented by...
-- <!---Why---> [NAME](link)'s Code was used because...
-- <!---How---> [NAME](link)'s Code was modified by...
+- <!---How---> The code in [W3CSchools](https://www.w3schools.com/react/react_router.asp) was implemented by W3Cschools
+- <!---Why---> [W3CSchools](https://www.w3schools.com/react/react_router.asp)'s Code was used because i wanted to refer how to navigate from one page on the website to another
+- <!---How---> [W3CSchools](https://www.w3schools.com/react/react_router.asp)'s Code was modified by making changes to the code according to my requirements to navigate from home page to schedule page.
 
 *Repeat as needed*
 

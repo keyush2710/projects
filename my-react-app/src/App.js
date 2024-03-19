@@ -17,10 +17,9 @@ function App() {
           </div>
         </header>
         <main>
-          {/* Use Routes component instead of Route directly */}
           <Routes>
-            <Route exact path="/" element={<Home />} /> {/* Use element prop */}
-            <Route path="/schedule" element={<Schedule />} /> {/* Use element prop */}
+            <Route exact path="/" element={<Home />} />
+            <Route path="/schedule" element={<Schedule />} /> 
           </Routes>
         </main>
       </div>
