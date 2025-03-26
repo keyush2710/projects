@@ -1,0 +1,45 @@
+/* sidebar.css */
+.sidebar {
+    
+    width: 200px;
+    margin-left: 50px;
+    /* Add more styles */
+  }
+  
+  .sidebar h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .sidebar p{
+    text-align: center;
+    margin-top: -5px;
+    font-family: sans-serif;
+
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .sidebar nav li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .user-profile {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .invitelink{
+    margin-left: 50px;
+  }
+  .dropdown{
+    margin-left: 40px;
+  }
+  .sidebar a{
+    text-decoration: solid;
+  }

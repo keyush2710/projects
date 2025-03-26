@@ -1,0 +1,25 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+Backend,com0.TrelloClone.board.controller,BoardController,2,0,4,4,28,7,0,0,0.0,0,4,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\board\controller\BoardController.java,14
+Backend,com0.TrelloClone.board.model,Board,3,0,8,8,29,8,0,0,0.375,5,1,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\board\model\Board.java,6
+Backend,com0.TrelloClone.board.repository,BoardRepository,0,0,2,0,4,2,0,0,-1.0,3,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\board\repository\BoardRepository.java,7
+Backend,com0.TrelloClone.board.service,BoardService,1,0,4,4,34,8,0,0,0.0,2,2,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\board\service\BoardService.java,13
+Backend,com0.TrelloClone.task.controller,taskController,2,0,4,4,35,9,0,0,0.0,0,4,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\task\controller\taskController.java,16
+Backend,com0.TrelloClone.task.model,TaskModel,6,1,14,14,55,14,0,0,0.14285714285714285,3,1,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\task\model\TaskModel.java,13
+Backend,com0.TrelloClone.task.model,TaskModel.status,0,0,0,0,1,0,0,0,-1.0,0,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\task\model\TaskModel.java,22
+Backend,com0.TrelloClone.task.repository,TaskRepository,0,0,1,0,3,1,0,0,-1.0,2,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\task\repository\TaskRepository.java,7
+Backend,com0.TrelloClone.task.service,TaskService,2,0,4,4,45,10,0,0,0.0,2,4,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\task\service\TaskService.java,15
+Backend,com0.TrelloClone,TrelloCloneApplication,0,0,1,1,5,1,0,0,-1.0,0,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\TrelloCloneApplication.java,6
+Backend,com0.TrelloClone,WebConfig,0,0,1,1,5,1,0,0,-1.0,0,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\WebConfig.java,7
+Backend,com0.TrelloClone,ApplicationTests,0,0,1,0,4,1,0,0,-1.0,0,0,C:\Users\17057\Music\group05\.\Backend\src\test\java\com0\TrelloClone\ApplicationTests.java,6
+Backend,com0.TrelloClone,BoardTest,2,0,6,6,66,6,0,0,0.0,0,4,C:\Users\17057\Music\group05\.\Backend\src\test\java\com0\TrelloClone\BoardTest.java,21
+Backend,com0.TrelloClone,TaskTest,3,0,8,8,111,8,0,0,0.0,0,5,C:\Users\17057\Music\group05\.\Backend\src\test\java\com0\TrelloClone\TaskTest.java,24
+Backend,com0.TrelloClone,UserTest,2,0,14,14,202,14,0,0,0.0,0,3,C:\Users\17057\Music\group05\.\Backend\src\test\java\com0\TrelloClone\UserTest.java,19
+Backend,com0.TrelloClone,WorkspaceTest,4,0,9,9,128,9,0,0,0.0,0,6,C:\Users\17057\Music\group05\.\Backend\src\test\java\com0\TrelloClone\WorkspaceTest.java,22
+Backend,com0.TrelloClone.user.controller,UserController,1,0,4,4,45,12,0,0,0.0,0,2,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\user\controller\UserController.java,10
+Backend,com0.TrelloClone.user.entity,UserEntity,6,0,15,15,58,15,0,0,0.13333333333333333,7,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\user\entity\UserEntity.java,8
+Backend,com0.TrelloClone.user.repository,UserRepository,0,0,2,0,4,2,0,0,-1.0,5,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\user\repository\UserRepository.java,8
+Backend,com0.TrelloClone.user.service,UserService,2,0,10,10,96,27,0,0,0.2,5,2,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\user\service\UserService.java,12
+Backend,com0.TrelloClone.workspace.controller,WorkspaceController,2,0,6,6,42,10,0,0,0.0,0,3,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\workspace\controller\WorkspaceController.java,12
+Backend,com0.TrelloClone.workspace.model,Workspace,4,0,10,10,38,10,0,0,0.2,6,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\workspace\model\Workspace.java,9
+Backend,com0.TrelloClone.workspace.repository,WorkspaceRepository,0,0,2,0,4,2,0,0,-1.0,3,0,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\workspace\repository\WorkspaceRepository.java,7
+Backend,com0.TrelloClone.workspace.service,WorkspaceService,2,0,7,7,66,17,0,0,0.0,2,4,C:\Users\17057\Music\group05\.\Backend\src\main\java\com0\TrelloClone\workspace\service\WorkspaceService.java,11

@@ -1,0 +1,2 @@
+Project Name,Package Name,Architecture Smell,Cause of the Smell
+Backend,com0.TrelloClone,Feature Concentration,The tool detected the smell in this component because the component realizes more than one architectural concern/feature. Independent sets of related classes within this component are: [TrelloCloneApplication]; [WebConfig]; [ApplicationTests]; [BoardTest]; [TaskTest]; [UserTest]; [WorkspaceTest]. LCC (Lack of Component Cohesion) = 1.0

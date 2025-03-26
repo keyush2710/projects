@@ -1,0 +1,29 @@
+.invitemembers h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inviteform{
+    text-align: center;
+    align-items: center;
+}
+.inviteform button.secondary {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    margin-top: 50px;
+    width: 200px;
+  }
+  .inviteform button[type="submit"] {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 120px;
+    margin-left: 10px;
+  }
+  .textfield{
+    width: 300px;
+  }
+  .email{
+    margin-right: 20px;
+  }

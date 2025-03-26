@@ -1,0 +1,43 @@
+.board h1{
+    margin-left: 70px;
+    font-family:sans-serif;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.board p{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.deleteboard button.secondary{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-right: 50px;
+    background-color: red;
+    border-radius: 4px;
+
+  }
+  .deleteboard{
+    text-align: right;
+    margin-top: -238px;
+  }
+  .back {
+    margin-top: -10px;
+    margin-left: 70px;
+  }
+  .back a{
+    text-decoration: solid;
+    font-weight: bold;
+  }
+  .createanotherboard {
+    margin-top: 20px;
+    margin-left: 70px;
+    text-align: left;
+  }
+  .createanotherboard a{
+    text-decoration: solid;
+    font-weight: bold;
+  }

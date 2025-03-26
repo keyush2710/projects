@@ -1,0 +1,57 @@
+.board-list-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .boardslist li{
+  list-style-type: none; 
+  margin-bottom: 10px; 
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  text-decoration: solid;
+  }
+
+  .boardname{
+    text-decoration: solid;
+  }
+
+  .update-workspace {
+    text-align: right;
+    margin-top: -150px;
+    margin-right: 50px;
+    color: blue;
+    font-weight: bold;
+  }
+  .update-workspace a{
+    text-decoration: solid;
+  }
+  .createboard {
+    text-align: right;
+    margin-top: 20px;
+    margin-right:110px;
+  }
+  .createboard a{
+    font-weight: bold;
+    text-decoration: solid;
+  }
+  .boardslist{
+    margin-top: -100px;
+    padding: 5px 10px 5px 10px;
+  }
+  .createworkspace {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 72px;
+  }
+  .createworkspace a{
+    font-weight: bold;
+    text-decoration: solid;
+  }
+  .logout{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -150px;
+  }
+  .logout-button{
+    background-color: red;
+  }
